@@ -1,0 +1,19 @@
+x-logging: &default-logging
+  driver: "json-file"
+  options:
+    max-size: "50m"
+    max-file: "4"
+
+services:
+  getmoarfediverse:
+    image: ghcr.io/g3rv4/getmoarfediverse:latest
+    volumes:
+      - ./data/getmoarfediverse:/data:rw,Z
+    logging: *default-logging
+
+  fedifetcher:
+    image: ghcr.io/nanos/fedifetcher:latest
+    command: -c="/app/artifacts/config.json"
+    volumes:
+      - ./data/fedifetcher:/app/artifacts
+    logging: *default-logging

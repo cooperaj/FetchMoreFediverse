@@ -1,0 +1,14 @@
+{
+  "FakeRelayUrl": "https://${YOUR_FAKERELAY_SERVER}",
+  "FakeRelayApiKey": "${YOUR_FAKERELAY_APIKEY}",
+  "Api": {
+    "Url": "https://${YOUR_MASTODON_SERVER}/api/",
+    "Tokens": [
+      {
+        "Owner": "${YOUR_USERNAME}",
+        "Token": "${YOUR_TOKEN}"
+      }
+    ]
+  },
+  "Instances": [ "mastodon.social" ]
+}

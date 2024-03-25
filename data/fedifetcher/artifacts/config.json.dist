@@ -1,0 +1,8 @@
+{
+  "access-token": "${YOUR_TOKEN}",
+  "server": "${YOUR_MASTODON_SERVER}",
+  "home-timeline-length": 200,
+  "from-notifications": 1,
+  "max-bookmarks": 40,
+  "max-followings": 80
+}
