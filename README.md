@@ -1,3 +1,3 @@
-# Get More Fedi for Mastodon running under Dokku
+# Fetch More Fediverse for Mastodon running under Dokku
 
 See website for more information
