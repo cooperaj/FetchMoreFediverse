@@ -15,5 +15,5 @@ services:
     image: ghcr.io/nanos/fedifetcher:latest
     command: -c="/app/artifacts/config.json"
     volumes:
-      - ./data/fedifetcher:/app/artifacts
+      - ./data/fedifetcher:/app/artifacts:rw:Z
     logging: *default-logging
