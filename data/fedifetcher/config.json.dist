@@ -1,6 +1,6 @@
 {
-  "access-token": "${YOUR_TOKEN}",
-  "server": "${YOUR_MASTODON_SERVER}",
+  "access-token": "${YOUR_FEDI_TOKEN}",
+  "server": "${YOUR_MASTODON_HOST}",
   "home-timeline-length": 200,
   "from-notifications": 1,
   "max-bookmarks": 40,

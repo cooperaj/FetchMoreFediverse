@@ -1,12 +1,12 @@
 {
-  "FakeRelayUrl": "https://${YOUR_FAKERELAY_SERVER}",
-  "FakeRelayApiKey": "${YOUR_FAKERELAY_APIKEY}",
+  "FakeRelayUrl": "https://${YOUR_FAKERELAY_HOST}",
+  "FakeRelayApiKey": "${YOUR_FAKERELAY_KEY}",
   "Api": {
-    "Url": "https://${YOUR_MASTODON_SERVER}/api/",
+    "Url": "https://${YOUR_MASTODON_HOST}/api/",
     "Tokens": [
       {
-        "Owner": "${YOUR_USERNAME}",
-        "Token": "${YOUR_TOKEN}"
+        "Owner": "${ANYTHING_YOU_LIKE_PROBABLY_YOUR_MASTODON_USERNAME}",
+        "Token": "${YOUR_MOAR_TOKEN}"
       }
     ]
   },
